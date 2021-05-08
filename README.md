@@ -1,2 +1,2 @@
-# Tidyrice.github.io
+# tidyrice.github.io
 Personal Website
