@@ -1,0 +1,11 @@
+body {
+    overflow-y: scroll;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+
+header {
+    display: block;
+    text-align: center;
+    font-size: 40px;
+    padding: 5em 0;
+}
