@@ -1,6 +1,7 @@
 body {
     overflow-y: scroll;
     font-family: Verdana, Arial, Helvetica, sans-serif;
+    background-color: rgb(255, 230, 230);
 }
 
 header {
@@ -8,4 +9,11 @@ header {
     text-align: center;
     font-size: 40px;
     padding: 5em 0;
+    line-height: 1.5em;
+}
+
+hr {
+    align-items: center;
+    width: 35%;
+    color: white;
 }
