@@ -8,8 +8,28 @@ header {
     display: block;
     text-align: center;
     font-size: 40px;
-    padding: 5em 0;
+    padding: 6em 0 1.5em 0;
     line-height: 1.5em;
+}
+
+.arrow {
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+    color: rgb(100, 100, 100);
+    line-height: 1.5em;
+    animation: fade_move_down_text 5s ease-in-out infinite;
+}
+
+.arrow span {
+    display: block;
+    margin: 0 auto -10px auto;
+	width: 40px;
+	height: 40px;
+	border-bottom: 5px solid rgb(100, 100, 100);
+	border-right: 5px solid rgb(100, 100, 100);
+    transform: rotate(45deg);
+    animation: fade_move_down_arrow 5s ease-in-out infinite;
 }
 
 hr {
@@ -17,3 +37,15 @@ hr {
     width: 35%;
     color: white;
 }
+
+@keyframes fade_move_down_text {
+    0%   { opacity: 0; }
+    50% { opacity: 1; }
+    100%   { opacity: 0; }
+  }
+
+@keyframes fade_move_down_arrow {
+    0%   { transform:translate(0,-10px) rotate(45deg); opacity: 0;  }
+    50%  { opacity: 1;  }
+    100% { transform:translate(0,10px) rotate(45deg); opacity: 0; }
+  }
