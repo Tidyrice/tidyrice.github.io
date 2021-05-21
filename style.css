@@ -8,13 +8,14 @@ header {
     display: block;
     text-align: center;
     font-size: 40px;
-    padding: 6em 0 1.5em 0;
+    padding: 5.5em 0 1.5em 0;
     line-height: 1.5em;
 }
 
 #hello::before {
     content: "Hello,";
     animation: hello_fade 20s ease-in-out infinite;
+    animation-delay: 0.5s;
 }
 
 .arrow {
@@ -23,7 +24,9 @@ header {
     font-weight: bold;
     color: rgb(100, 100, 100);
     line-height: 1.5em;
+    opacity: 0;
     animation: fade_text 5s ease-in-out infinite;
+    animation-delay: 2s;
 }
 
 .arrow span {
@@ -34,7 +37,9 @@ header {
 	border-bottom: 5px solid rgb(100, 100, 100);
 	border-right: 5px solid rgb(100, 100, 100);
     transform: rotate(45deg);
+    opacity: 0;
     animation: fade_move_down_arrow 5s ease-in-out infinite;
+    animation-delay: 2s;
 }
 
 hr {
