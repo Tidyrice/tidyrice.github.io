@@ -1,4 +1,4 @@
-fadeSwap("hello", ["Hello,", "你好,", "Hola,", "こんにちは,", "Bonjour,"], 15);
+/*fadeSwap("hello", ["Hello,", "你好,", "Hola,", "こんにちは,", "Bonjour,"], 15);
 
 async function fadeSwap(ID, textArray, timePerFrame) {
     const text = document.getElementById(ID);
@@ -29,4 +29,4 @@ async function fadeSwap(ID, textArray, timePerFrame) {
 
 function sleep(miliseconds) {
     return new Promise(resolve => setTimeout(resolve, miliseconds));
-  }
+  } */
