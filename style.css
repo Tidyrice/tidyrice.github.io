@@ -4,32 +4,38 @@ body {
     background-color: rgb(255, 230, 230);
 }
 
-header {
-    display: block;
+.landing {
     text-align: center;
     font-size: 40px;
-    padding: 5.5em 0 1.5em 0;
     line-height: 1.5em;
+    padding: 20vh 0 0 0;
+    height: 80vh;
+    margin: auto;
 }
 
-#hello::before {
+.landing h2::before {
     content: "Hello,";
     animation: hello_fade 20s ease-in-out infinite;
     animation-delay: 0.5s;
 }
 
-.arrow {
+.landing h1 {
+    line-height: 1em;
+}
+
+.landing p {
     text-align: center;
     font-size: 16px;
     font-weight: bold;
     color: rgb(100, 100, 100);
     line-height: 1.5em;
+    padding: 5vh 0 0 0;
     opacity: 0;
     animation: fade_text 5s ease-in-out infinite;
     animation-delay: 2s;
 }
 
-.arrow span {
+.landing span {
     display: block;
     margin: 0 auto -10px auto;
 	width: 40px;
@@ -44,7 +50,7 @@ header {
 
 hr {
     align-items: center;
-    width: 35%;
+    width: 90vw;
     color: white;
 }
 
