@@ -5,4 +5,6 @@ This is the first website I made. Throughout the experience, I will be developin
 In the future I plan to develop more pages, such as ones dedicated to a resume and contacts. 
 
 # References
-https://codepen.io/Minmin9/pen/wvKgpdv
+Down arrow: https://codepen.io/Minmin9/pen/wvKgpdv
+Landing page inspiration: willzahary.com/
+
