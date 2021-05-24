@@ -43,7 +43,7 @@ body {
     animation-delay: 2s;
 }
 
-.intro {
+.about {
     display: flex;
     font-size: 20px;
     line-height: 2em;
@@ -51,15 +51,28 @@ body {
     margin: auto;
 }
 
+.intro {
+
+}
+
 .intro div {
-    width: 70%;
+    width: 80%;
     float: left;
 }
 
 .intro img {
+    border-radius: 8px;
     width: 240px;
     height: 240px;
-    padding: 5vh 0 0 5vw;
+    margin: 5vh 0 0 2vw;
+}
+
+.skills {
+
+}
+
+.projects {
+
 }
 
 hr {
@@ -69,13 +82,22 @@ hr {
 }
 
 @media screen and (max-width: 1000px) {
-    .intro {
+    .landing {
+        font-size: 30px;
+    }
+
+    .about {
       display: block
+    }
+
+    .intro div {
+        width: 100%;
     }
 
     .intro img {
         width: 300px;
         height: 300px;
+        margin: 0;
     }
   }
 
