@@ -68,13 +68,28 @@ body {
     border-radius: 8px;
     width: 240px;
     height: 240px;
-    margin: 0 0 0 2vw;
+    margin: 0 0 0 2%;
+}
+
+.skills {
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.skills h1 {
+    width: 100%;
+}
+
+.skills h5 {
+    width: 50%;
+    margin: 0;
 }
 
 .skills div {
-    line-height: 2em;
-    margin: 4vh 0 0 0;
-    padding: 1vh 2vw 1vh 0.5vw;
+    display: flex;
+    width: 44%;
+    margin: 0 1% 2% 1%;
+    padding: 1vh 1vw 1vh 1vw;
 
     border-style: groove;
     border-width: 2px;
@@ -86,12 +101,11 @@ body {
     width: 100px;
     height: 100px;
     margin: 0 1vw 0 0;
-    float: left;
 }
 
 .skills div div {
     all: revert;
-    width: 80%;
+    width: 100%;
 }
 
 .projects {
@@ -123,8 +137,9 @@ hr {
         margin: 0;
     }
 
-    .skills div div {
+    .skills div {
         width: 100%;
+        margin: 0 0 2% 0;
     }
   }
 
