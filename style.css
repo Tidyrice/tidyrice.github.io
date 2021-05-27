@@ -8,7 +8,7 @@ body {
     text-align: center;
     font-size: 40px;
     line-height: 2em;
-    padding: 18vh 0 18vh 0;
+    padding: 4em 0 4.5em 0;
     margin: auto;
 }
 
@@ -24,7 +24,7 @@ body {
     font-weight: bold;
     color: rgb(100, 100, 100);
     line-height: 1.5em;
-    padding: 5vh 0 0 0;
+    padding: 2em 0 0 0;
     opacity: 0;
     animation: fade_text 5s ease-in-out infinite;
     animation-delay: 2s;
@@ -44,13 +44,14 @@ body {
 }
 
 .about {
+    width: 75%;
     font-size: 20px;
     line-height: 2em;
-    margin: 5vh 10vw;
+    margin: 2em auto;
     padding: 2vh 2vw;
 
-    border-style: groove;
-    border-width: 1px;
+    border-style: solid;
+    border-width: 2px;
     border-color:rgb(155, 155, 155);
     border-radius: 8px;
 }
@@ -60,7 +61,7 @@ body {
 }
 
 .intro div {
-    width: 80%;
+    flex-grow: 1;
     float: left;
 }
 
@@ -80,27 +81,32 @@ body {
     width: 100%;
 }
 
-.skills h5 {
-    width: 50%;
+.skills h4 {
+    margin: 0;
+}
+
+.skills p {
     margin: 0;
 }
 
 .skills div {
     display: flex;
-    width: 44%;
+    flex-grow: 1;
+    background-image: linear-gradient(to bottom right, rgb(255, 230, 230), rgb(230, 230, 255));
+    width: 45%;
     margin: 0 1% 2% 1%;
-    padding: 1vh 1vw 1vh 1vw;
 
-    border-style: groove;
+    border-style: solid;
     border-width: 2px;
     border-color:rgb(255, 255, 255);
+    border-radius: 8px;
 }
 
 .skills img {
     border-radius: 8px;
-    width: 100px;
-    height: 100px;
-    margin: 0 1vw 0 0;
+    width: 124px;
+    height: 124px;
+    margin: 1%;
 }
 
 .skills div div {
@@ -120,7 +126,7 @@ hr {
 
 @media screen and (max-width: 1000px) {
     .landing {
-        font-size: 30px;
+        font-size: 36px;
     }
 
     .flex {
