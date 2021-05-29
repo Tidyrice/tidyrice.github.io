@@ -118,6 +118,15 @@ body {
 
 }
 
+.footer {
+    text-align: center;
+}
+
+.footer img {
+    width: 64px;
+    margin: 0 1em;
+}
+
 hr {
     align-items: center;
     width: 90vw;
